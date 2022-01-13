@@ -1,0 +1,244 @@
+0 verbose cli [
+0 verbose cli   '/Users/vijendr/.nvm/versions/node/v17.3.0/bin/node',
+0 verbose cli   '/Users/vijendr/.nvm/versions/node/v17.3.0/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '--ignore-scripts',
+0 verbose cli   '@types/hex-color-regex@ts4.5',
+0 verbose cli   '@types/is-bigint@ts4.5',
+0 verbose cli   '@types/is-boolean-object@ts4.5',
+0 verbose cli   '@types/isexe@ts4.5',
+0 verbose cli   '@types/lru-cache@ts4.5',
+0 verbose cli   '@types/punycode@ts4.5',
+0 verbose cli   '@types/setimmediate@ts4.5',
+0 verbose cli   '@types/universalify@ts4.5',
+0 verbose cli   '@types/uuid@ts4.5',
+0 verbose cli   '@types/yallist@ts4.5',
+0 verbose cli   '--save-dev',
+0 verbose cli   '--user-agent=typesInstaller/4.5.4'
+0 verbose cli ]
+1 info using npm@8.3.0
+2 info using node@v17.3.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/Users/vijendr/.nvm/versions/node/v17.3.0/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/Users/vijendr/Library/Caches/typescript/4.5/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/Users/vijendr/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/Users/vijendr/.nvm/versions/node/v17.3.0/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 0ms
+18 timing config:load Completed in 10ms
+19 timing npm:load:configload Completed in 11ms
+20 timing npm:load:setTitle Completed in 15ms
+21 timing config:load:flatten Completed in 2ms
+22 timing npm:load:display Completed in 4ms
+23 verbose logfile /Users/vijendr/Desktop/Project-Dumps/web3.0-blockchain-app/client/C:tmpnodejsnpm-cache/_logs/2022-01-12T11_35_39_699Z-debug-0.log
+24 timing npm:load:logFile Completed in 5ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 35ms
+28 timing arborist:ctor Completed in 0ms
+29 silly logfile start cleaning logs, removing 1 files
+30 timing idealTree:init Completed in 53ms
+31 timing arborist:ctor Completed in 0ms
+32 http fetch GET 200 https://registry.npmjs.org/@types%2flru-cache 436ms (cache miss)
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fuuid 437ms (cache miss)
+34 http fetch GET 200 https://registry.npmjs.org/@types%2fsetimmediate 438ms (cache miss)
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fis-boolean-object 441ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fis-bigint 442ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fpunycode 442ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2funiversalify 441ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fhex-color-regex 445ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fyallist 443ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fisexe 2592ms (cache miss)
+42 timing idealTree:userRequests Completed in 2607ms
+43 silly idealTree buildDeps
+44 silly fetch manifest @types/hex-color-regex@1.1.1
+45 silly fetch manifest @types/is-bigint@1.0.0
+46 silly fetch manifest @types/is-boolean-object@1.1.0
+47 silly fetch manifest @types/isexe@2.0.1
+48 silly fetch manifest @types/lru-cache@5.1.1
+49 silly fetch manifest @types/punycode@2.1.0
+50 silly fetch manifest @types/setimmediate@1.0.2
+51 silly fetch manifest @types/universalify@1.0.0
+52 silly fetch manifest @types/uuid@8.3.4
+53 silly fetch manifest @types/yallist@4.0.1
+54 silly placeDep ROOT @types/hex-color-regex@1.1.1 OK for:  want: 1.1.1
+55 silly placeDep ROOT @types/is-bigint@1.0.0 OK for:  want: 1.0.0
+56 silly placeDep ROOT @types/is-boolean-object@1.1.0 OK for:  want: 1.1.0
+57 silly placeDep ROOT @types/isexe@2.0.1 OK for:  want: 2.0.1
+58 silly placeDep ROOT @types/lru-cache@5.1.1 OK for:  want: 5.1.1
+59 silly placeDep ROOT @types/punycode@2.1.0 OK for:  want: 2.1.0
+60 silly placeDep ROOT @types/setimmediate@1.0.2 OK for:  want: 1.0.2
+61 silly placeDep ROOT @types/universalify@1.0.0 OK for:  want: 1.0.0
+62 silly placeDep ROOT @types/uuid@8.3.4 OK for:  want: 8.3.4
+63 silly placeDep ROOT @types/yallist@4.0.1 OK for:  want: 4.0.1
+64 timing idealTree:#root Completed in 25ms
+65 timing idealTree:node_modules/@types/hex-color-regex Completed in 0ms
+66 timing idealTree:node_modules/@types/is-bigint Completed in 0ms
+67 timing idealTree:node_modules/@types/is-boolean-object Completed in 0ms
+68 timing idealTree:node_modules/@types/isexe Completed in 0ms
+69 timing idealTree:node_modules/@types/lru-cache Completed in 0ms
+70 timing idealTree:node_modules/@types/punycode Completed in 0ms
+71 timing idealTree:node_modules/@types/setimmediate Completed in 0ms
+72 timing idealTree:node_modules/@types/universalify Completed in 0ms
+73 timing idealTree:node_modules/@types/uuid Completed in 0ms
+74 timing idealTree:node_modules/@types/yallist Completed in 0ms
+75 timing idealTree:buildDeps Completed in 28ms
+76 timing idealTree:fixDepFlags Completed in 1ms
+77 timing idealTree Completed in 2692ms
+78 timing reify:loadTrees Completed in 2693ms
+79 timing reify:diffTrees Completed in 5ms
+80 silly reify moves {}
+81 timing reify:retireShallow Completed in 1ms
+82 timing reify:createSparse Completed in 4ms
+83 timing reify:loadBundles Completed in 0ms
+84 silly audit bulk request {
+84 silly audit   '@babel/helper-validator-identifier': [ '7.16.7' ],
+84 silly audit   '@babel/parser': [ '7.16.7' ],
+84 silly audit   '@babel/types': [ '7.16.7' ],
+84 silly audit   '@types/abbrev': [ '1.1.2' ],
+84 silly audit   '@types/acorn': [ '4.0.6' ],
+84 silly audit   '@types/aes-js': [ '3.1.1' ],
+84 silly audit   '@types/babel__core': [ '7.1.18' ],
+84 silly audit   '@types/babel__generator': [ '7.6.4' ],
+84 silly audit   '@types/babel__template': [ '7.4.1' ],
+84 silly audit   '@types/babel__traverse': [ '7.14.2' ],
+84 silly audit   '@types/balanced-match': [ '1.0.2' ],
+84 silly audit   '@types/bn.js': [ '5.1.0' ],
+84 silly audit   '@types/brace-expansion': [ '1.1.0' ],
+84 silly audit   '@types/braces': [ '3.0.1' ],
+84 silly audit   '@types/brorand': [ '1.0.30' ],
+84 silly audit   '@types/camelcase-css': [ '2.0.0' ],
+84 silly audit   '@types/caniuse-lite': [ '1.0.1' ],
+84 silly audit   '@types/color-convert': [ '2.0.0' ],
+84 silly audit   '@types/color-name': [ '1.1.1' ],
+84 silly audit   '@types/concat-map': [ '0.0.1' ],
+84 silly audit   '@types/convert-source-map': [ '1.5.2' ],
+84 silly audit   '@types/cssesc': [ '3.0.0' ],
+84 silly audit   '@types/debug': [ '4.1.7' ],
+84 silly audit   '@types/deep-extend': [ '0.4.32' ],
+84 silly audit   '@types/defined': [ '1.0.0' ],
+84 silly audit   '@types/detective': [ '5.1.2' ],
+84 silly audit   '@types/didyoumean': [ '1.2.0' ],
+84 silly audit   '@types/dlv': [ '1.1.2' ],
+84 silly audit   '@types/duplexer3': [ '0.1.1' ],
+84 silly audit   '@types/elliptic': [ '6.4.14' ],
+84 silly audit   '@types/eslint': [ '8.2.2' ],
+84 silly audit   '@types/estree': [ '0.0.50' ],
+84 silly audit   '@types/fill-range': [ '7.0.0' ],
+84 silly audit   '@types/function-bind': [ '1.1.6' ],
+84 silly audit   '@types/glob-parent': [ '5.1.1' ],
+84 silly audit   '@types/graceful-fs': [ '4.1.5' ],
+84 silly audit   '@types/has': [ '1.0.0' ],
+84 silly audit   '@types/http-cache-semantics': [ '4.0.1' ],
+84 silly audit   '@types/inherits': [ '0.0.30' ],
+84 silly audit   '@types/is-core-module': [ '2.2.0' ],
+84 silly audit   '@types/is-glob': [ '4.0.2' ],
+84 silly audit   '@types/is-number': [ '7.0.2' ],
+84 silly audit   '@types/jsesc': [ '3.0.1' ],
+84 silly audit   '@types/json-schema': [ '7.0.9' ],
+84 silly audit   '@types/merge2': [ '1.3.1' ],
+84 silly audit   '@types/micromatch': [ '4.0.2' ],
+84 silly audit   '@types/minimalistic-assert': [ '1.0.1' ],
+84 silly audit   '@types/minimist': [ '1.2.2' ],
+84 silly audit   '@types/ms': [ '0.7.31' ],
+84 silly audit   '@types/node': [ '17.0.4' ],
+84 silly audit   '@types/nodemon': [ '1.19.1' ],
+84 silly audit   '@types/normalize-path': [ '3.0.0' ],
+84 silly audit   '@types/object-assign': [ '4.0.30' ],
+84 silly audit   '@types/object-hash': [ '2.2.1' ],
+84 silly audit   '@types/parse-json': [ '4.0.0' ],
+84 silly audit   '@types/path-parse': [ '1.0.19' ],
+84 silly audit   '@types/picomatch': [ '2.3.0' ],
+84 silly audit   '@types/prop-types': [ '15.7.4' ],
+84 silly audit   '@types/react': [ '17.0.38' ],
+84 silly audit   '@types/react-dom': [ '17.0.11' ],
+84 silly audit   '@types/resolve': [ '1.20.1' ],
+84 silly audit   '@types/run-parallel': [ '1.1.0' ],
+84 silly audit   '@types/scheduler': [ '0.16.2' ],
+84 silly audit   '@types/semver': [ '7.3.9' ],
+84 silly audit   '@types/supports-color': [ '8.1.1' ],
+84 silly audit   '@types/tailwindcss': [ '3.0.2' ],
+84 silly audit   '@types/to-regex-range': [ '5.0.0' ],
+84 silly audit   '@types/util-deprecate': [ '1.0.0' ],
+84 silly audit   '@types/ws': [ '8.2.2' ],
+84 silly audit   '@types/xtend': [ '4.0.4' ],
+84 silly audit   csstype: [ '3.0.10' ],
+84 silly audit   'to-fast-properties': [ '2.0.0' ],
+84 silly audit   'types-registry': [ '0.1.575' ],
+84 silly audit   '@types/hex-color-regex': [ '1.1.1' ],
+84 silly audit   '@types/is-bigint': [ '1.0.0' ],
+84 silly audit   '@types/is-boolean-object': [ '1.1.0' ],
+84 silly audit   '@types/isexe': [ '2.0.1' ],
+84 silly audit   '@types/lru-cache': [ '5.1.1' ],
+84 silly audit   '@types/punycode': [ '2.1.0' ],
+84 silly audit   '@types/setimmediate': [ '1.0.2' ],
+84 silly audit   '@types/universalify': [ '1.0.0' ],
+84 silly audit   '@types/uuid': [ '8.3.4' ],
+84 silly audit   '@types/yallist': [ '4.0.1' ]
+84 silly audit }
+85 silly tarball no local data for @types/yallist@https://registry.npmjs.org/@types/yallist/-/yallist-4.0.1.tgz. Extracting by manifest.
+86 silly tarball no local data for @types/universalify@https://registry.npmjs.org/@types/universalify/-/universalify-1.0.0.tgz. Extracting by manifest.
+87 silly tarball no local data for @types/uuid@https://registry.npmjs.org/@types/uuid/-/uuid-8.3.4.tgz. Extracting by manifest.
+88 silly tarball no local data for @types/setimmediate@https://registry.npmjs.org/@types/setimmediate/-/setimmediate-1.0.2.tgz. Extracting by manifest.
+89 silly tarball no local data for @types/lru-cache@https://registry.npmjs.org/@types/lru-cache/-/lru-cache-5.1.1.tgz. Extracting by manifest.
+90 silly tarball no local data for @types/punycode@https://registry.npmjs.org/@types/punycode/-/punycode-2.1.0.tgz. Extracting by manifest.
+91 silly tarball no local data for @types/isexe@https://registry.npmjs.org/@types/isexe/-/isexe-2.0.1.tgz. Extracting by manifest.
+92 silly tarball no local data for @types/is-bigint@https://registry.npmjs.org/@types/is-bigint/-/is-bigint-1.0.0.tgz. Extracting by manifest.
+93 silly tarball no local data for @types/hex-color-regex@https://registry.npmjs.org/@types/hex-color-regex/-/hex-color-regex-1.1.1.tgz. Extracting by manifest.
+94 silly tarball no local data for @types/is-boolean-object@https://registry.npmjs.org/@types/is-boolean-object/-/is-boolean-object-1.1.0.tgz. Extracting by manifest.
+95 http fetch GET 200 https://registry.npmjs.org/@types/hex-color-regex/-/hex-color-regex-1.1.1.tgz 100ms (cache miss)
+96 timing reifyNode:node_modules/@types/hex-color-regex Completed in 151ms
+97 http fetch GET 200 https://registry.npmjs.org/@types/punycode/-/punycode-2.1.0.tgz 117ms (cache miss)
+98 timing reifyNode:node_modules/@types/punycode Completed in 157ms
+99 http fetch GET 200 https://registry.npmjs.org/@types/yallist/-/yallist-4.0.1.tgz 147ms (cache miss)
+100 timing reifyNode:node_modules/@types/yallist Completed in 163ms
+101 http fetch GET 200 https://registry.npmjs.org/@types/is-bigint/-/is-bigint-1.0.0.tgz 119ms (cache miss)
+102 timing reifyNode:node_modules/@types/is-bigint Completed in 166ms
+103 http fetch GET 200 https://registry.npmjs.org/@types/isexe/-/isexe-2.0.1.tgz 135ms (cache miss)
+104 timing reifyNode:node_modules/@types/isexe Completed in 178ms
+105 http fetch GET 200 https://registry.npmjs.org/@types/lru-cache/-/lru-cache-5.1.1.tgz 150ms (cache miss)
+106 timing reifyNode:node_modules/@types/lru-cache Completed in 182ms
+107 http fetch GET 200 https://registry.npmjs.org/@types/uuid/-/uuid-8.3.4.tgz 164ms (cache miss)
+108 timing reifyNode:node_modules/@types/uuid Completed in 187ms
+109 http fetch GET 200 https://registry.npmjs.org/@types/is-boolean-object/-/is-boolean-object-1.1.0.tgz 135ms (cache miss)
+110 timing reifyNode:node_modules/@types/is-boolean-object Completed in 190ms
+111 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 341ms
+112 timing auditReport:getReport Completed in 345ms
+113 silly audit report {}
+114 timing auditReport:init Completed in 0ms
+115 timing reify:audit Completed in 346ms
+116 http fetch GET 200 https://registry.npmjs.org/@types/universalify/-/universalify-1.0.0.tgz 1219ms (cache miss)
+117 timing reifyNode:node_modules/@types/universalify Completed in 1239ms
+118 http fetch GET 200 https://registry.npmjs.org/@types/setimmediate/-/setimmediate-1.0.2.tgz 1230ms (cache miss)
+119 timing reifyNode:node_modules/@types/setimmediate Completed in 1256ms
+120 timing reify:unpack Completed in 1257ms
+121 timing reify:unretire Completed in 0ms
+122 timing build:queue Completed in 0ms
+123 timing build:deps Completed in 1ms
+124 timing build Completed in 1ms
+125 timing reify:build Completed in 1ms
+126 timing reify:trash Completed in 0ms
+127 timing reify:save Completed in 17ms
+128 timing reify Completed in 3995ms
+129 silly ADD node_modules/@types/yallist
+130 silly ADD node_modules/@types/uuid
+131 silly ADD node_modules/@types/universalify
+132 silly ADD node_modules/@types/setimmediate
+133 silly ADD node_modules/@types/punycode
+134 silly ADD node_modules/@types/lru-cache
+135 silly ADD node_modules/@types/isexe
+136 silly ADD node_modules/@types/is-boolean-object
+137 silly ADD node_modules/@types/is-bigint
+138 silly ADD node_modules/@types/hex-color-regex
+139 timing command:install Completed in 4000ms
+140 verbose exit 0
+141 timing npm Completed in 4249ms
+142 info ok

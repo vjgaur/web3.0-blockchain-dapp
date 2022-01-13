@@ -1,0 +1,789 @@
+0 verbose cli [
+0 verbose cli   '/Users/vijendr/.nvm/versions/node/v17.3.0/bin/node',
+0 verbose cli   '/Users/vijendr/.nvm/versions/node/v17.3.0/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '--ignore-scripts',
+0 verbose cli   '@types/argparse@ts4.5',
+0 verbose cli   '@types/aria-query@ts4.5',
+0 verbose cli   '@types/array.prototype.flat@ts4.5',
+0 verbose cli   '@types/array.prototype.flatmap@ts4.5',
+0 verbose cli   '@types/bytes@ts4.5',
+0 verbose cli   '@types/call-bind@ts4.5',
+0 verbose cli   '@types/color@ts4.5',
+0 verbose cli   '@types/color-string@ts4.5',
+0 verbose cli   '@types/confusing-browser-globals@ts4.5',
+0 verbose cli   '@types/cross-spawn@ts4.5',
+0 verbose cli   '@types/damerau-levenshtein@ts4.5',
+0 verbose cli   '@types/debounce@ts4.5',
+0 verbose cli   '@types/define-properties@ts4.5',
+0 verbose cli   '@types/doctrine@ts4.5',
+0 verbose cli   '@types/es-abstract@ts4.5',
+0 verbose cli   '@types/es-to-primitive@ts4.5',
+0 verbose cli   '@types/eslint-scope@ts4.5',
+0 verbose cli   '@types/eslint-utils@ts4.5',
+0 verbose cli   '@types/eslint-visitor-keys@ts4.5',
+0 verbose cli   '@types/esquery@ts4.5',
+0 verbose cli   '@types/estraverse@ts4.5',
+0 verbose cli   '@types/esutils@ts4.5',
+0 verbose cli   '@types/fast-levenshtein@ts4.5',
+0 verbose cli   '@types/file-entry-cache@ts4.5',
+0 verbose cli   '@types/flat-cache@ts4.5',
+0 verbose cli   '@types/fs-extra@ts4.5',
+0 verbose cli   '@types/functional-red-black-tree@ts4.5',
+0 verbose cli   '@types/get-intrinsic@ts4.5',
+0 verbose cli   '@types/glob@ts4.5',
+0 verbose cli   '@types/has-symbols@ts4.5',
+0 verbose cli   '@types/imurmurhash@ts4.5',
+0 verbose cli   '@types/internal-slot@ts4.5',
+0 verbose cli   '@types/is-callable@ts4.5',
+0 verbose cli   '@types/is-date-object@ts4.5',
+0 verbose cli   '@types/is-regex@ts4.5',
+0 verbose cli   '@types/is-string@ts4.5',
+0 verbose cli   '@types/js-yaml@ts4.5',
+0 verbose cli   '@types/jsonfile@ts4.5',
+0 verbose cli   '@types/language-tags@ts4.5',
+0 verbose cli   '@types/lodash@ts4.5',
+0 verbose cli   '@types/lodash.merge@ts4.5',
+0 verbose cli   '@types/lodash.topath@ts4.5',
+0 verbose cli   '@types/minimatch@ts4.5',
+0 verbose cli   '@types/natural-compare@ts4.5',
+0 verbose cli   '@types/node-emoji@ts4.5',
+0 verbose cli   '@types/object-inspect@ts4.5',
+0 verbose cli   '@types/object-keys@ts4.5',
+0 verbose cli   '@types/object.fromentries@ts4.5',
+0 verbose cli   '@types/once@ts4.5',
+0 verbose cli   '@types/path-is-absolute@ts4.5',
+0 verbose cli   '@types/prelude-ls@ts4.5',
+0 verbose cli   '@types/pretty-hrtime@ts4.5',
+0 verbose cli   '@types/progress@ts4.5',
+0 verbose cli   '@types/prop-types@ts4.5',
+0 verbose cli   '@types/react-is@ts4.5',
+0 verbose cli   '@types/regenerator-runtime@ts4.5',
+0 verbose cli   '@types/rimraf@ts4.5',
+0 verbose cli   '@types/shebang-command@ts4.5',
+0 verbose cli   '@types/simple-swizzle@ts4.5',
+0 verbose cli   '@types/string.prototype.matchall@ts4.5',
+0 verbose cli   '@types/text-table@ts4.5',
+0 verbose cli   '@types/tmp@ts4.5',
+0 verbose cli   '@types/type-check@ts4.5',
+0 verbose cli   '@types/which@ts4.5',
+0 verbose cli   '--save-dev',
+0 verbose cli   '--user-agent=typesInstaller/4.5.4'
+0 verbose cli ]
+1 info using npm@8.3.0
+2 info using node@v17.3.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/Users/vijendr/.nvm/versions/node/v17.3.0/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/vijendr/Library/Caches/typescript/4.5/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/Users/vijendr/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/Users/vijendr/.nvm/versions/node/v17.3.0/etc/npmrc Completed in 2ms
+14 timing config:load:global Completed in 2ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 9ms
+19 timing npm:load:configload Completed in 9ms
+20 timing npm:load:setTitle Completed in 17ms
+21 timing config:load:flatten Completed in 3ms
+22 timing npm:load:display Completed in 4ms
+23 verbose logfile /Users/vijendr/Desktop/Project-Dumps/web3.0-blockchain-app/client/C:tmpnodejsnpm-cache/_logs/2022-01-12T11_35_44_279Z-debug-0.log
+24 timing npm:load:logFile Completed in 4ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 34ms
+28 timing arborist:ctor Completed in 0ms
+29 silly logfile start cleaning logs, removing 1 files
+30 timing idealTree:init Completed in 45ms
+31 timing arborist:ctor Completed in 0ms
+32 http fetch GET 200 https://registry.npmjs.org/@types%2fdefine-properties 253ms (cache miss)
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fbytes 257ms (cache miss)
+34 http fetch GET 200 https://registry.npmjs.org/@types%2farray.prototype.flat 257ms (cache miss)
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fconfusing-browser-globals 262ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/@types%2farray.prototype.flatmap 270ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fcolor 282ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fes-abstract 282ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fcross-spawn 284ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fcall-bind 286ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fargparse 288ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fdamerau-levenshtein 291ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/@types%2fes-to-primitive 290ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/@types%2fesquery 290ms (cache miss)
+45 http fetch GET 200 https://registry.npmjs.org/@types%2fcolor-string 292ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/@types%2fesutils 292ms (cache miss)
+47 http fetch GET 200 https://registry.npmjs.org/@types%2feslint-visitor-keys 293ms (cache miss)
+48 http fetch GET 200 https://registry.npmjs.org/@types%2feslint-utils 294ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/@types%2fdoctrine 298ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/@types%2feslint-scope 297ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/@types%2festraverse 298ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/@types%2ffast-levenshtein 303ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/@types%2ffs-extra 321ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/@types%2fflat-cache 328ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/@types%2fglob 327ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/@types%2fis-callable 337ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/@types%2fis-regex 337ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/@types%2ffunctional-red-black-tree 353ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/@types%2finternal-slot 376ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/@types%2fhas-symbols 379ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/@types%2fimurmurhash 380ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/@types%2fis-string 381ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/@types%2fis-date-object 386ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/@types%2flodash.merge 392ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/@types%2fjs-yaml 395ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/@types%2flodash 394ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/@types%2flodash.topath 394ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/@types%2fminimatch 395ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/@types%2fobject-inspect 396ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/@types%2fnatural-compare 399ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/@types%2fobject-keys 399ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/@types%2fnode-emoji 401ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/@types%2fonce 405ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/@types%2fobject.fromentries 407ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/@types%2flanguage-tags 413ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/@types%2fpath-is-absolute 409ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/@types%2fprelude-ls 419ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/@types%2freact-is 420ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/@types%2fpretty-hrtime 422ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/@types%2fregenerator-runtime 421ms (cache miss)
+81 http fetch GET 200 https://registry.npmjs.org/@types%2fprogress 422ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/@types%2frimraf 422ms (cache miss)
+83 http fetch GET 200 https://registry.npmjs.org/@types%2fsimple-swizzle 423ms (cache miss)
+84 http fetch GET 200 https://registry.npmjs.org/@types%2fprop-types 424ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/@types%2fstring.prototype.matchall 423ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/@types%2fshebang-command 427ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/@types%2ftext-table 427ms (cache miss)
+88 http fetch GET 200 https://registry.npmjs.org/@types%2fwhich 437ms (cache miss)
+89 http fetch GET 200 https://registry.npmjs.org/@types%2ftmp 442ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/@types%2ftype-check 442ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/@types%2faria-query 730ms (cache miss)
+92 http fetch GET 200 https://registry.npmjs.org/@types%2fdebounce 2493ms (cache miss)
+93 http fetch GET 200 https://registry.npmjs.org/@types%2ffile-entry-cache 2540ms (cache miss)
+94 http fetch GET 200 https://registry.npmjs.org/@types%2fjsonfile 2553ms (cache miss)
+95 http fetch GET 200 https://registry.npmjs.org/@types%2fget-intrinsic 2565ms (cache miss)
+96 timing idealTree:userRequests Completed in 2586ms
+97 silly idealTree buildDeps
+98 silly fetch manifest @types/argparse@2.0.10
+99 silly fetch manifest @types/aria-query@5.0.0
+100 silly fetch manifest @types/array.prototype.flat@1.2.1
+101 silly fetch manifest @types/array.prototype.flatmap@1.2.2
+102 silly fetch manifest @types/bytes@3.1.1
+103 silly fetch manifest @types/call-bind@1.0.0
+104 silly fetch manifest @types/color@3.0.2
+105 silly fetch manifest @types/color-string@1.5.2
+106 silly fetch manifest @types/confusing-browser-globals@1.0.0
+107 silly fetch manifest @types/cross-spawn@6.0.2
+108 silly fetch manifest @types/damerau-levenshtein@1.0.0
+109 silly fetch manifest @types/debounce@1.2.1
+110 silly fetch manifest @types/define-properties@1.1.3
+111 silly fetch manifest @types/doctrine@0.0.5
+112 silly fetch manifest @types/es-abstract@1.17.3
+113 silly fetch manifest @types/es-to-primitive@1.2.4
+114 silly fetch manifest @types/eslint-scope@3.7.3
+115 silly fetch manifest @types/eslint-utils@3.0.1
+116 silly fetch manifest @types/eslint-visitor-keys@1.0.0
+117 silly fetch manifest @types/esquery@1.0.2
+118 silly fetch manifest @types/estraverse@5.1.1
+119 silly fetch manifest @types/esutils@2.0.0
+120 silly fetch manifest @types/fast-levenshtein@0.0.2
+121 silly fetch manifest @types/file-entry-cache@5.0.2
+122 silly fetch manifest @types/flat-cache@2.0.0
+123 silly fetch manifest @types/fs-extra@9.0.13
+124 silly fetch manifest @types/functional-red-black-tree@1.0.1
+125 silly fetch manifest @types/get-intrinsic@1.0.0
+126 silly fetch manifest @types/glob@7.2.0
+127 silly fetch manifest @types/has-symbols@1.0.0
+128 silly fetch manifest @types/imurmurhash@0.1.1
+129 silly fetch manifest @types/internal-slot@1.0.1
+130 silly fetch manifest @types/is-callable@1.1.0
+131 silly fetch manifest @types/is-date-object@1.0.2
+132 silly fetch manifest @types/is-regex@1.0.0
+133 silly fetch manifest @types/is-string@1.0.0
+134 silly fetch manifest @types/js-yaml@4.0.5
+135 silly fetch manifest @types/jsonfile@6.0.1
+136 silly fetch manifest @types/language-tags@1.0.0
+137 silly fetch manifest @types/lodash@4.14.178
+138 silly fetch manifest @types/lodash.merge@4.6.6
+139 silly fetch manifest @types/lodash.topath@4.5.6
+140 silly fetch manifest @types/minimatch@3.0.5
+141 silly fetch manifest @types/natural-compare@1.4.1
+142 silly fetch manifest @types/node-emoji@1.8.1
+143 silly fetch manifest @types/object-inspect@1.8.1
+144 silly fetch manifest @types/object-keys@1.0.1
+145 silly fetch manifest @types/object.fromentries@2.0.1
+146 silly fetch manifest @types/once@1.4.0
+147 silly fetch manifest @types/path-is-absolute@1.0.0
+148 silly fetch manifest @types/prelude-ls@1.1.29
+149 silly fetch manifest @types/pretty-hrtime@1.0.1
+150 silly fetch manifest @types/progress@2.0.5
+151 silly fetch manifest @types/prop-types@15.7.4
+152 silly fetch manifest @types/react-is@17.0.3
+153 silly fetch manifest @types/regenerator-runtime@0.13.1
+154 silly fetch manifest @types/rimraf@3.0.2
+155 silly fetch manifest @types/shebang-command@1.2.0
+156 silly fetch manifest @types/simple-swizzle@0.2.0
+157 silly fetch manifest @types/string.prototype.matchall@4.0.1
+158 silly fetch manifest @types/text-table@0.2.2
+159 silly fetch manifest @types/tmp@0.2.3
+160 silly fetch manifest @types/type-check@0.3.27
+161 silly fetch manifest @types/which@2.0.1
+162 silly placeDep ROOT @types/argparse@2.0.10 OK for:  want: 2.0.10
+163 silly placeDep ROOT @types/aria-query@5.0.0 OK for:  want: 5.0.0
+164 silly placeDep ROOT @types/array.prototype.flat@1.2.1 OK for:  want: 1.2.1
+165 silly placeDep ROOT @types/array.prototype.flatmap@1.2.2 OK for:  want: 1.2.2
+166 silly placeDep ROOT @types/bytes@3.1.1 OK for:  want: 3.1.1
+167 silly placeDep ROOT @types/call-bind@1.0.0 OK for:  want: 1.0.0
+168 silly placeDep ROOT @types/color@3.0.2 OK for:  want: 3.0.2
+169 silly placeDep ROOT @types/color-string@1.5.2 OK for:  want: 1.5.2
+170 silly placeDep ROOT @types/confusing-browser-globals@1.0.0 OK for:  want: 1.0.0
+171 silly placeDep ROOT @types/cross-spawn@6.0.2 OK for:  want: 6.0.2
+172 silly placeDep ROOT @types/damerau-levenshtein@1.0.0 OK for:  want: 1.0.0
+173 silly placeDep ROOT @types/debounce@1.2.1 OK for:  want: 1.2.1
+174 silly placeDep ROOT @types/define-properties@1.1.3 OK for:  want: 1.1.3
+175 silly placeDep ROOT @types/doctrine@0.0.5 OK for:  want: 0.0.5
+176 silly placeDep ROOT @types/es-abstract@1.17.3 OK for:  want: 1.17.3
+177 silly placeDep ROOT @types/es-to-primitive@1.2.4 OK for:  want: 1.2.4
+178 silly placeDep ROOT @types/eslint-scope@3.7.3 OK for:  want: 3.7.3
+179 silly placeDep ROOT @types/eslint-utils@3.0.1 OK for:  want: 3.0.1
+180 silly placeDep ROOT @types/eslint-visitor-keys@1.0.0 OK for:  want: 1.0.0
+181 silly placeDep ROOT @types/esquery@1.0.2 OK for:  want: 1.0.2
+182 silly placeDep ROOT @types/estraverse@5.1.1 OK for:  want: 5.1.1
+183 silly placeDep ROOT @types/esutils@2.0.0 OK for:  want: 2.0.0
+184 silly placeDep ROOT @types/fast-levenshtein@0.0.2 OK for:  want: 0.0.2
+185 silly placeDep ROOT @types/file-entry-cache@5.0.2 OK for:  want: 5.0.2
+186 silly placeDep ROOT @types/flat-cache@2.0.0 OK for:  want: 2.0.0
+187 silly placeDep ROOT @types/fs-extra@9.0.13 OK for:  want: 9.0.13
+188 silly placeDep ROOT @types/functional-red-black-tree@1.0.1 OK for:  want: 1.0.1
+189 silly placeDep ROOT @types/get-intrinsic@1.0.0 OK for:  want: 1.0.0
+190 silly placeDep ROOT @types/glob@7.2.0 OK for:  want: 7.2.0
+191 silly placeDep ROOT @types/has-symbols@1.0.0 OK for:  want: 1.0.0
+192 silly placeDep ROOT @types/imurmurhash@0.1.1 OK for:  want: 0.1.1
+193 silly placeDep ROOT @types/internal-slot@1.0.1 OK for:  want: 1.0.1
+194 silly placeDep ROOT @types/is-callable@1.1.0 OK for:  want: 1.1.0
+195 silly placeDep ROOT @types/is-date-object@1.0.2 OK for:  want: 1.0.2
+196 silly placeDep ROOT @types/is-regex@1.0.0 OK for:  want: 1.0.0
+197 silly placeDep ROOT @types/is-string@1.0.0 OK for:  want: 1.0.0
+198 silly placeDep ROOT @types/js-yaml@4.0.5 OK for:  want: 4.0.5
+199 silly placeDep ROOT @types/jsonfile@6.0.1 OK for:  want: 6.0.1
+200 silly placeDep ROOT @types/language-tags@1.0.0 OK for:  want: 1.0.0
+201 silly placeDep ROOT @types/lodash@4.14.178 OK for:  want: 4.14.178
+202 silly placeDep ROOT @types/lodash.merge@4.6.6 OK for:  want: 4.6.6
+203 silly placeDep ROOT @types/lodash.topath@4.5.6 OK for:  want: 4.5.6
+204 silly placeDep ROOT @types/minimatch@3.0.5 OK for:  want: 3.0.5
+205 silly placeDep ROOT @types/natural-compare@1.4.1 OK for:  want: 1.4.1
+206 silly placeDep ROOT @types/node-emoji@1.8.1 OK for:  want: 1.8.1
+207 silly placeDep ROOT @types/object-inspect@1.8.1 OK for:  want: 1.8.1
+208 silly placeDep ROOT @types/object-keys@1.0.1 OK for:  want: 1.0.1
+209 silly placeDep ROOT @types/object.fromentries@2.0.1 OK for:  want: 2.0.1
+210 silly placeDep ROOT @types/once@1.4.0 OK for:  want: 1.4.0
+211 silly placeDep ROOT @types/path-is-absolute@1.0.0 OK for:  want: 1.0.0
+212 silly placeDep ROOT @types/prelude-ls@1.1.29 OK for:  want: 1.1.29
+213 silly placeDep ROOT @types/pretty-hrtime@1.0.1 OK for:  want: 1.0.1
+214 silly placeDep ROOT @types/progress@2.0.5 OK for:  want: 2.0.5
+215 silly placeDep ROOT @types/prop-types@15.7.4 REPLACE for:  want: 15.7.4
+216 silly placeDep ROOT @types/react-is@17.0.3 OK for:  want: 17.0.3
+217 silly placeDep ROOT @types/regenerator-runtime@0.13.1 OK for:  want: 0.13.1
+218 silly placeDep ROOT @types/rimraf@3.0.2 OK for:  want: 3.0.2
+219 silly placeDep ROOT @types/shebang-command@1.2.0 OK for:  want: 1.2.0
+220 silly placeDep ROOT @types/simple-swizzle@0.2.0 OK for:  want: 0.2.0
+221 silly placeDep ROOT @types/string.prototype.matchall@4.0.1 OK for:  want: 4.0.1
+222 silly placeDep ROOT @types/text-table@0.2.2 OK for:  want: 0.2.2
+223 silly placeDep ROOT @types/tmp@0.2.3 OK for:  want: 0.2.3
+224 silly placeDep ROOT @types/type-check@0.3.27 OK for:  want: 0.3.27
+225 silly placeDep ROOT @types/which@2.0.1 OK for:  want: 2.0.1
+226 timing idealTree:#root Completed in 108ms
+227 timing idealTree:node_modules/@types/argparse Completed in 0ms
+228 timing idealTree:node_modules/@types/aria-query Completed in 0ms
+229 timing idealTree:node_modules/@types/array.prototype.flat Completed in 0ms
+230 timing idealTree:node_modules/@types/array.prototype.flatmap Completed in 0ms
+231 timing idealTree:node_modules/@types/bytes Completed in 0ms
+232 timing idealTree:node_modules/@types/call-bind Completed in 0ms
+233 timing idealTree:node_modules/@types/color Completed in 0ms
+234 timing idealTree:node_modules/@types/color-string Completed in 0ms
+235 timing idealTree:node_modules/@types/confusing-browser-globals Completed in 0ms
+236 timing idealTree:node_modules/@types/cross-spawn Completed in 0ms
+237 timing idealTree:node_modules/@types/damerau-levenshtein Completed in 0ms
+238 timing idealTree:node_modules/@types/debounce Completed in 0ms
+239 timing idealTree:node_modules/@types/define-properties Completed in 0ms
+240 timing idealTree:node_modules/@types/doctrine Completed in 0ms
+241 timing idealTree:node_modules/@types/es-abstract Completed in 0ms
+242 timing idealTree:node_modules/@types/es-to-primitive Completed in 0ms
+243 timing idealTree:node_modules/@types/eslint-scope Completed in 0ms
+244 timing idealTree:node_modules/@types/eslint-utils Completed in 0ms
+245 timing idealTree:node_modules/@types/eslint-visitor-keys Completed in 0ms
+246 timing idealTree:node_modules/@types/esquery Completed in 0ms
+247 timing idealTree:node_modules/@types/estraverse Completed in 0ms
+248 timing idealTree:node_modules/@types/esutils Completed in 0ms
+249 timing idealTree:node_modules/@types/fast-levenshtein Completed in 0ms
+250 timing idealTree:node_modules/@types/file-entry-cache Completed in 0ms
+251 timing idealTree:node_modules/@types/flat-cache Completed in 0ms
+252 timing idealTree:node_modules/@types/fs-extra Completed in 0ms
+253 timing idealTree:node_modules/@types/functional-red-black-tree Completed in 0ms
+254 timing idealTree:node_modules/@types/get-intrinsic Completed in 0ms
+255 timing idealTree:node_modules/@types/glob Completed in 0ms
+256 timing idealTree:node_modules/@types/has-symbols Completed in 0ms
+257 timing idealTree:node_modules/@types/imurmurhash Completed in 0ms
+258 timing idealTree:node_modules/@types/internal-slot Completed in 0ms
+259 timing idealTree:node_modules/@types/is-callable Completed in 0ms
+260 timing idealTree:node_modules/@types/is-date-object Completed in 0ms
+261 timing idealTree:node_modules/@types/is-regex Completed in 0ms
+262 timing idealTree:node_modules/@types/is-string Completed in 0ms
+263 timing idealTree:node_modules/@types/js-yaml Completed in 0ms
+264 timing idealTree:node_modules/@types/jsonfile Completed in 0ms
+265 timing idealTree:node_modules/@types/language-tags Completed in 0ms
+266 timing idealTree:node_modules/@types/lodash Completed in 0ms
+267 timing idealTree:node_modules/@types/lodash.merge Completed in 0ms
+268 timing idealTree:node_modules/@types/lodash.topath Completed in 0ms
+269 timing idealTree:node_modules/@types/minimatch Completed in 0ms
+270 timing idealTree:node_modules/@types/natural-compare Completed in 0ms
+271 timing idealTree:node_modules/@types/node-emoji Completed in 0ms
+272 timing idealTree:node_modules/@types/object-inspect Completed in 0ms
+273 timing idealTree:node_modules/@types/object-keys Completed in 0ms
+274 timing idealTree:node_modules/@types/object.fromentries Completed in 0ms
+275 timing idealTree:node_modules/@types/once Completed in 0ms
+276 timing idealTree:node_modules/@types/path-is-absolute Completed in 0ms
+277 timing idealTree:node_modules/@types/prelude-ls Completed in 0ms
+278 timing idealTree:node_modules/@types/pretty-hrtime Completed in 0ms
+279 timing idealTree:node_modules/@types/progress Completed in 0ms
+280 timing idealTree:node_modules/@types/prop-types Completed in 0ms
+281 timing idealTree:node_modules/@types/react-is Completed in 0ms
+282 timing idealTree:node_modules/@types/regenerator-runtime Completed in 0ms
+283 timing idealTree:node_modules/@types/rimraf Completed in 0ms
+284 timing idealTree:node_modules/@types/shebang-command Completed in 0ms
+285 timing idealTree:node_modules/@types/simple-swizzle Completed in 0ms
+286 timing idealTree:node_modules/@types/string.prototype.matchall Completed in 0ms
+287 timing idealTree:node_modules/@types/text-table Completed in 0ms
+288 timing idealTree:node_modules/@types/tmp Completed in 0ms
+289 timing idealTree:node_modules/@types/type-check Completed in 0ms
+290 timing idealTree:node_modules/@types/which Completed in 0ms
+291 timing idealTree:buildDeps Completed in 116ms
+292 timing idealTree:fixDepFlags Completed in 1ms
+293 timing idealTree Completed in 2750ms
+294 timing reify:loadTrees Completed in 2751ms
+295 timing reify:diffTrees Completed in 4ms
+296 silly reify moves {}
+297 timing reify:retireShallow Completed in 1ms
+298 timing reify:createSparse Completed in 21ms
+299 timing reify:loadBundles Completed in 0ms
+300 silly audit bulk request {
+300 silly audit   '@babel/helper-validator-identifier': [ '7.16.7' ],
+300 silly audit   '@babel/parser': [ '7.16.7' ],
+300 silly audit   '@babel/types': [ '7.16.7' ],
+300 silly audit   '@types/abbrev': [ '1.1.2' ],
+300 silly audit   '@types/acorn': [ '4.0.6' ],
+300 silly audit   '@types/aes-js': [ '3.1.1' ],
+300 silly audit   '@types/babel__core': [ '7.1.18' ],
+300 silly audit   '@types/babel__generator': [ '7.6.4' ],
+300 silly audit   '@types/babel__template': [ '7.4.1' ],
+300 silly audit   '@types/babel__traverse': [ '7.14.2' ],
+300 silly audit   '@types/balanced-match': [ '1.0.2' ],
+300 silly audit   '@types/bn.js': [ '5.1.0' ],
+300 silly audit   '@types/brace-expansion': [ '1.1.0' ],
+300 silly audit   '@types/braces': [ '3.0.1' ],
+300 silly audit   '@types/brorand': [ '1.0.30' ],
+300 silly audit   '@types/camelcase-css': [ '2.0.0' ],
+300 silly audit   '@types/caniuse-lite': [ '1.0.1' ],
+300 silly audit   '@types/color-convert': [ '2.0.0' ],
+300 silly audit   '@types/color-name': [ '1.1.1' ],
+300 silly audit   '@types/concat-map': [ '0.0.1' ],
+300 silly audit   '@types/convert-source-map': [ '1.5.2' ],
+300 silly audit   '@types/cssesc': [ '3.0.0' ],
+300 silly audit   '@types/debug': [ '4.1.7' ],
+300 silly audit   '@types/deep-extend': [ '0.4.32' ],
+300 silly audit   '@types/defined': [ '1.0.0' ],
+300 silly audit   '@types/detective': [ '5.1.2' ],
+300 silly audit   '@types/didyoumean': [ '1.2.0' ],
+300 silly audit   '@types/dlv': [ '1.1.2' ],
+300 silly audit   '@types/duplexer3': [ '0.1.1' ],
+300 silly audit   '@types/elliptic': [ '6.4.14' ],
+300 silly audit   '@types/eslint': [ '8.2.2' ],
+300 silly audit   '@types/estree': [ '0.0.50' ],
+300 silly audit   '@types/fill-range': [ '7.0.0' ],
+300 silly audit   '@types/function-bind': [ '1.1.6' ],
+300 silly audit   '@types/glob-parent': [ '5.1.1' ],
+300 silly audit   '@types/graceful-fs': [ '4.1.5' ],
+300 silly audit   '@types/has': [ '1.0.0' ],
+300 silly audit   '@types/hex-color-regex': [ '1.1.1' ],
+300 silly audit   '@types/http-cache-semantics': [ '4.0.1' ],
+300 silly audit   '@types/inherits': [ '0.0.30' ],
+300 silly audit   '@types/is-bigint': [ '1.0.0' ],
+300 silly audit   '@types/is-boolean-object': [ '1.1.0' ],
+300 silly audit   '@types/is-core-module': [ '2.2.0' ],
+300 silly audit   '@types/is-glob': [ '4.0.2' ],
+300 silly audit   '@types/is-number': [ '7.0.2' ],
+300 silly audit   '@types/isexe': [ '2.0.1' ],
+300 silly audit   '@types/jsesc': [ '3.0.1' ],
+300 silly audit   '@types/json-schema': [ '7.0.9' ],
+300 silly audit   '@types/lru-cache': [ '5.1.1' ],
+300 silly audit   '@types/merge2': [ '1.3.1' ],
+300 silly audit   '@types/micromatch': [ '4.0.2' ],
+300 silly audit   '@types/minimalistic-assert': [ '1.0.1' ],
+300 silly audit   '@types/minimist': [ '1.2.2' ],
+300 silly audit   '@types/ms': [ '0.7.31' ],
+300 silly audit   '@types/node': [ '17.0.4' ],
+300 silly audit   '@types/nodemon': [ '1.19.1' ],
+300 silly audit   '@types/normalize-path': [ '3.0.0' ],
+300 silly audit   '@types/object-assign': [ '4.0.30' ],
+300 silly audit   '@types/object-hash': [ '2.2.1' ],
+300 silly audit   '@types/parse-json': [ '4.0.0' ],
+300 silly audit   '@types/path-parse': [ '1.0.19' ],
+300 silly audit   '@types/picomatch': [ '2.3.0' ],
+300 silly audit   '@types/punycode': [ '2.1.0' ],
+300 silly audit   '@types/react': [ '17.0.38' ],
+300 silly audit   '@types/react-dom': [ '17.0.11' ],
+300 silly audit   '@types/resolve': [ '1.20.1' ],
+300 silly audit   '@types/run-parallel': [ '1.1.0' ],
+300 silly audit   '@types/scheduler': [ '0.16.2' ],
+300 silly audit   '@types/semver': [ '7.3.9' ],
+300 silly audit   '@types/setimmediate': [ '1.0.2' ],
+300 silly audit   '@types/supports-color': [ '8.1.1' ],
+300 silly audit   '@types/tailwindcss': [ '3.0.2' ],
+300 silly audit   '@types/to-regex-range': [ '5.0.0' ],
+300 silly audit   '@types/universalify': [ '1.0.0' ],
+300 silly audit   '@types/util-deprecate': [ '1.0.0' ],
+300 silly audit   '@types/uuid': [ '8.3.4' ],
+300 silly audit   '@types/ws': [ '8.2.2' ],
+300 silly audit   '@types/xtend': [ '4.0.4' ],
+300 silly audit   '@types/yallist': [ '4.0.1' ],
+300 silly audit   csstype: [ '3.0.10' ],
+300 silly audit   'to-fast-properties': [ '2.0.0' ],
+300 silly audit   'types-registry': [ '0.1.575' ],
+300 silly audit   '@types/argparse': [ '2.0.10' ],
+300 silly audit   '@types/aria-query': [ '5.0.0' ],
+300 silly audit   '@types/array.prototype.flat': [ '1.2.1' ],
+300 silly audit   '@types/array.prototype.flatmap': [ '1.2.2' ],
+300 silly audit   '@types/bytes': [ '3.1.1' ],
+300 silly audit   '@types/call-bind': [ '1.0.0' ],
+300 silly audit   '@types/color': [ '3.0.2' ],
+300 silly audit   '@types/color-string': [ '1.5.2' ],
+300 silly audit   '@types/confusing-browser-globals': [ '1.0.0' ],
+300 silly audit   '@types/cross-spawn': [ '6.0.2' ],
+300 silly audit   '@types/damerau-levenshtein': [ '1.0.0' ],
+300 silly audit   '@types/debounce': [ '1.2.1' ],
+300 silly audit   '@types/define-properties': [ '1.1.3' ],
+300 silly audit   '@types/doctrine': [ '0.0.5' ],
+300 silly audit   '@types/es-abstract': [ '1.17.3' ],
+300 silly audit   '@types/es-to-primitive': [ '1.2.4' ],
+300 silly audit   '@types/eslint-scope': [ '3.7.3' ],
+300 silly audit   '@types/eslint-utils': [ '3.0.1' ],
+300 silly audit   '@types/eslint-visitor-keys': [ '1.0.0' ],
+300 silly audit   '@types/esquery': [ '1.0.2' ],
+300 silly audit   '@types/estraverse': [ '5.1.1' ],
+300 silly audit   '@types/esutils': [ '2.0.0' ],
+300 silly audit   '@types/fast-levenshtein': [ '0.0.2' ],
+300 silly audit   '@types/file-entry-cache': [ '5.0.2' ],
+300 silly audit   '@types/flat-cache': [ '2.0.0' ],
+300 silly audit   '@types/fs-extra': [ '9.0.13' ],
+300 silly audit   '@types/functional-red-black-tree': [ '1.0.1' ],
+300 silly audit   '@types/get-intrinsic': [ '1.0.0' ],
+300 silly audit   '@types/glob': [ '7.2.0' ],
+300 silly audit   '@types/has-symbols': [ '1.0.0' ],
+300 silly audit   '@types/imurmurhash': [ '0.1.1' ],
+300 silly audit   '@types/internal-slot': [ '1.0.1' ],
+300 silly audit   '@types/is-callable': [ '1.1.0' ],
+300 silly audit   '@types/is-date-object': [ '1.0.2' ],
+300 silly audit   '@types/is-regex': [ '1.0.0' ],
+300 silly audit   '@types/is-string': [ '1.0.0' ],
+300 silly audit   '@types/js-yaml': [ '4.0.5' ],
+300 silly audit   '@types/jsonfile': [ '6.0.1' ],
+300 silly audit   '@types/language-tags': [ '1.0.0' ],
+300 silly audit   '@types/lodash': [ '4.14.178' ],
+300 silly audit   '@types/lodash.merge': [ '4.6.6' ],
+300 silly audit   '@types/lodash.topath': [ '4.5.6' ],
+300 silly audit   '@types/minimatch': [ '3.0.5' ],
+300 silly audit   '@types/natural-compare': [ '1.4.1' ],
+300 silly audit   '@types/node-emoji': [ '1.8.1' ],
+300 silly audit   '@types/object-inspect': [ '1.8.1' ],
+300 silly audit   '@types/object-keys': [ '1.0.1' ],
+300 silly audit   '@types/object.fromentries': [ '2.0.1' ],
+300 silly audit   '@types/once': [ '1.4.0' ],
+300 silly audit   '@types/path-is-absolute': [ '1.0.0' ],
+300 silly audit   '@types/prelude-ls': [ '1.1.29' ],
+300 silly audit   '@types/pretty-hrtime': [ '1.0.1' ],
+300 silly audit   '@types/progress': [ '2.0.5' ],
+300 silly audit   '@types/prop-types': [ '15.7.4' ],
+300 silly audit   '@types/react-is': [ '17.0.3' ],
+300 silly audit   '@types/regenerator-runtime': [ '0.13.1' ],
+300 silly audit   '@types/rimraf': [ '3.0.2' ],
+300 silly audit   '@types/shebang-command': [ '1.2.0' ],
+300 silly audit   '@types/simple-swizzle': [ '0.2.0' ],
+300 silly audit   '@types/string.prototype.matchall': [ '4.0.1' ],
+300 silly audit   '@types/text-table': [ '0.2.2' ],
+300 silly audit   '@types/tmp': [ '0.2.3' ],
+300 silly audit   '@types/type-check': [ '0.3.27' ],
+300 silly audit   '@types/which': [ '2.0.1' ]
+300 silly audit }
+301 silly tarball no local data for @types/which@https://registry.npmjs.org/@types/which/-/which-2.0.1.tgz. Extracting by manifest.
+302 silly tarball no local data for @types/type-check@https://registry.npmjs.org/@types/type-check/-/type-check-0.3.27.tgz. Extracting by manifest.
+303 silly tarball no local data for @types/text-table@https://registry.npmjs.org/@types/text-table/-/text-table-0.2.2.tgz. Extracting by manifest.
+304 silly tarball no local data for @types/string.prototype.matchall@https://registry.npmjs.org/@types/string.prototype.matchall/-/string.prototype.matchall-4.0.1.tgz. Extracting by manifest.
+305 silly tarball no local data for @types/tmp@https://registry.npmjs.org/@types/tmp/-/tmp-0.2.3.tgz. Extracting by manifest.
+306 silly tarball no local data for @types/rimraf@https://registry.npmjs.org/@types/rimraf/-/rimraf-3.0.2.tgz. Extracting by manifest.
+307 silly tarball no local data for @types/shebang-command@https://registry.npmjs.org/@types/shebang-command/-/shebang-command-1.2.0.tgz. Extracting by manifest.
+308 silly tarball no local data for @types/regenerator-runtime@https://registry.npmjs.org/@types/regenerator-runtime/-/regenerator-runtime-0.13.1.tgz. Extracting by manifest.
+309 silly tarball no local data for @types/simple-swizzle@https://registry.npmjs.org/@types/simple-swizzle/-/simple-swizzle-0.2.0.tgz. Extracting by manifest.
+310 silly tarball no local data for @types/react-is@https://registry.npmjs.org/@types/react-is/-/react-is-17.0.3.tgz. Extracting by manifest.
+311 silly tarball no local data for @types/pretty-hrtime@https://registry.npmjs.org/@types/pretty-hrtime/-/pretty-hrtime-1.0.1.tgz. Extracting by manifest.
+312 silly tarball no local data for @types/path-is-absolute@https://registry.npmjs.org/@types/path-is-absolute/-/path-is-absolute-1.0.0.tgz. Extracting by manifest.
+313 silly tarball no local data for @types/progress@https://registry.npmjs.org/@types/progress/-/progress-2.0.5.tgz. Extracting by manifest.
+314 silly tarball no local data for @types/prelude-ls@https://registry.npmjs.org/@types/prelude-ls/-/prelude-ls-1.1.29.tgz. Extracting by manifest.
+315 silly tarball no local data for @types/once@https://registry.npmjs.org/@types/once/-/once-1.4.0.tgz. Extracting by manifest.
+316 silly tarball no local data for @types/object.fromentries@https://registry.npmjs.org/@types/object.fromentries/-/object.fromentries-2.0.1.tgz. Extracting by manifest.
+317 silly tarball no local data for @types/object-inspect@https://registry.npmjs.org/@types/object-inspect/-/object-inspect-1.8.1.tgz. Extracting by manifest.
+318 silly tarball no local data for @types/node-emoji@https://registry.npmjs.org/@types/node-emoji/-/node-emoji-1.8.1.tgz. Extracting by manifest.
+319 silly tarball no local data for @types/object-keys@https://registry.npmjs.org/@types/object-keys/-/object-keys-1.0.1.tgz. Extracting by manifest.
+320 silly tarball no local data for @types/minimatch@https://registry.npmjs.org/@types/minimatch/-/minimatch-3.0.5.tgz. Extracting by manifest.
+321 silly tarball no local data for @types/natural-compare@https://registry.npmjs.org/@types/natural-compare/-/natural-compare-1.4.1.tgz. Extracting by manifest.
+322 silly tarball no local data for @types/lodash.topath@https://registry.npmjs.org/@types/lodash.topath/-/lodash.topath-4.5.6.tgz. Extracting by manifest.
+323 silly tarball no local data for @types/lodash.merge@https://registry.npmjs.org/@types/lodash.merge/-/lodash.merge-4.6.6.tgz. Extracting by manifest.
+324 silly tarball no local data for @types/lodash@https://registry.npmjs.org/@types/lodash/-/lodash-4.14.178.tgz. Extracting by manifest.
+325 silly tarball no local data for @types/jsonfile@https://registry.npmjs.org/@types/jsonfile/-/jsonfile-6.0.1.tgz. Extracting by manifest.
+326 silly tarball no local data for @types/js-yaml@https://registry.npmjs.org/@types/js-yaml/-/js-yaml-4.0.5.tgz. Extracting by manifest.
+327 silly tarball no local data for @types/is-string@https://registry.npmjs.org/@types/is-string/-/is-string-1.0.0.tgz. Extracting by manifest.
+328 silly tarball no local data for @types/language-tags@https://registry.npmjs.org/@types/language-tags/-/language-tags-1.0.0.tgz. Extracting by manifest.
+329 silly tarball no local data for @types/is-regex@https://registry.npmjs.org/@types/is-regex/-/is-regex-1.0.0.tgz. Extracting by manifest.
+330 silly tarball no local data for @types/is-date-object@https://registry.npmjs.org/@types/is-date-object/-/is-date-object-1.0.2.tgz. Extracting by manifest.
+331 silly tarball no local data for @types/internal-slot@https://registry.npmjs.org/@types/internal-slot/-/internal-slot-1.0.1.tgz. Extracting by manifest.
+332 silly tarball no local data for @types/is-callable@https://registry.npmjs.org/@types/is-callable/-/is-callable-1.1.0.tgz. Extracting by manifest.
+333 silly tarball no local data for @types/imurmurhash@https://registry.npmjs.org/@types/imurmurhash/-/imurmurhash-0.1.1.tgz. Extracting by manifest.
+334 silly tarball no local data for @types/glob@https://registry.npmjs.org/@types/glob/-/glob-7.2.0.tgz. Extracting by manifest.
+335 silly tarball no local data for @types/get-intrinsic@https://registry.npmjs.org/@types/get-intrinsic/-/get-intrinsic-1.0.0.tgz. Extracting by manifest.
+336 silly tarball no local data for @types/has-symbols@https://registry.npmjs.org/@types/has-symbols/-/has-symbols-1.0.0.tgz. Extracting by manifest.
+337 silly tarball no local data for @types/functional-red-black-tree@https://registry.npmjs.org/@types/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz. Extracting by manifest.
+338 silly tarball no local data for @types/fs-extra@https://registry.npmjs.org/@types/fs-extra/-/fs-extra-9.0.13.tgz. Extracting by manifest.
+339 silly tarball no local data for @types/flat-cache@https://registry.npmjs.org/@types/flat-cache/-/flat-cache-2.0.0.tgz. Extracting by manifest.
+340 silly tarball no local data for @types/file-entry-cache@https://registry.npmjs.org/@types/file-entry-cache/-/file-entry-cache-5.0.2.tgz. Extracting by manifest.
+341 silly tarball no local data for @types/esutils@https://registry.npmjs.org/@types/esutils/-/esutils-2.0.0.tgz. Extracting by manifest.
+342 silly tarball no local data for @types/fast-levenshtein@https://registry.npmjs.org/@types/fast-levenshtein/-/fast-levenshtein-0.0.2.tgz. Extracting by manifest.
+343 silly tarball no local data for @types/estraverse@https://registry.npmjs.org/@types/estraverse/-/estraverse-5.1.1.tgz. Extracting by manifest.
+344 silly tarball no local data for @types/eslint-utils@https://registry.npmjs.org/@types/eslint-utils/-/eslint-utils-3.0.1.tgz. Extracting by manifest.
+345 silly tarball no local data for @types/eslint-visitor-keys@https://registry.npmjs.org/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz. Extracting by manifest.
+346 silly tarball no local data for @types/eslint-scope@https://registry.npmjs.org/@types/eslint-scope/-/eslint-scope-3.7.3.tgz. Extracting by manifest.
+347 silly tarball no local data for @types/esquery@https://registry.npmjs.org/@types/esquery/-/esquery-1.0.2.tgz. Extracting by manifest.
+348 silly tarball no local data for @types/es-to-primitive@https://registry.npmjs.org/@types/es-to-primitive/-/es-to-primitive-1.2.4.tgz. Extracting by manifest.
+349 silly tarball no local data for @types/es-abstract@https://registry.npmjs.org/@types/es-abstract/-/es-abstract-1.17.3.tgz. Extracting by manifest.
+350 silly tarball no local data for @types/doctrine@https://registry.npmjs.org/@types/doctrine/-/doctrine-0.0.5.tgz. Extracting by manifest.
+351 silly tarball no local data for @types/define-properties@https://registry.npmjs.org/@types/define-properties/-/define-properties-1.1.3.tgz. Extracting by manifest.
+352 silly tarball no local data for @types/debounce@https://registry.npmjs.org/@types/debounce/-/debounce-1.2.1.tgz. Extracting by manifest.
+353 silly tarball no local data for @types/damerau-levenshtein@https://registry.npmjs.org/@types/damerau-levenshtein/-/damerau-levenshtein-1.0.0.tgz. Extracting by manifest.
+354 silly tarball no local data for @types/cross-spawn@https://registry.npmjs.org/@types/cross-spawn/-/cross-spawn-6.0.2.tgz. Extracting by manifest.
+355 silly tarball no local data for @types/confusing-browser-globals@https://registry.npmjs.org/@types/confusing-browser-globals/-/confusing-browser-globals-1.0.0.tgz. Extracting by manifest.
+356 silly tarball no local data for @types/color-string@https://registry.npmjs.org/@types/color-string/-/color-string-1.5.2.tgz. Extracting by manifest.
+357 silly tarball no local data for @types/color@https://registry.npmjs.org/@types/color/-/color-3.0.2.tgz. Extracting by manifest.
+358 silly tarball no local data for @types/call-bind@https://registry.npmjs.org/@types/call-bind/-/call-bind-1.0.0.tgz. Extracting by manifest.
+359 silly tarball no local data for @types/bytes@https://registry.npmjs.org/@types/bytes/-/bytes-3.1.1.tgz. Extracting by manifest.
+360 silly tarball no local data for @types/array.prototype.flatmap@https://registry.npmjs.org/@types/array.prototype.flatmap/-/array.prototype.flatmap-1.2.2.tgz. Extracting by manifest.
+361 silly tarball no local data for @types/array.prototype.flat@https://registry.npmjs.org/@types/array.prototype.flat/-/array.prototype.flat-1.2.1.tgz. Extracting by manifest.
+362 silly tarball no local data for @types/aria-query@https://registry.npmjs.org/@types/aria-query/-/aria-query-5.0.0.tgz. Extracting by manifest.
+363 silly tarball no local data for @types/argparse@https://registry.npmjs.org/@types/argparse/-/argparse-2.0.10.tgz. Extracting by manifest.
+364 http fetch GET 200 https://registry.npmjs.org/@types/tmp/-/tmp-0.2.3.tgz 299ms (cache miss)
+365 timing reifyNode:node_modules/@types/tmp Completed in 345ms
+366 http fetch GET 200 https://registry.npmjs.org/@types/regenerator-runtime/-/regenerator-runtime-0.13.1.tgz 290ms (cache miss)
+367 timing reifyNode:node_modules/@types/regenerator-runtime Completed in 348ms
+368 http fetch GET 200 https://registry.npmjs.org/@types/pretty-hrtime/-/pretty-hrtime-1.0.1.tgz 281ms (cache miss)
+369 timing reifyNode:node_modules/@types/pretty-hrtime Completed in 351ms
+370 http fetch GET 200 https://registry.npmjs.org/@types/which/-/which-2.0.1.tgz 324ms (cache miss)
+371 timing reifyNode:node_modules/@types/which Completed in 354ms
+372 http fetch GET 200 https://registry.npmjs.org/@types/shebang-command/-/shebang-command-1.2.0.tgz 301ms (cache miss)
+373 timing reifyNode:node_modules/@types/shebang-command Completed in 357ms
+374 http fetch GET 200 https://registry.npmjs.org/@types/progress/-/progress-2.0.5.tgz 287ms (cache miss)
+375 timing reifyNode:node_modules/@types/progress Completed in 362ms
+376 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 369ms
+377 timing auditReport:getReport Completed in 373ms
+378 silly audit report {}
+379 timing auditReport:init Completed in 0ms
+380 timing reify:audit Completed in 373ms
+381 http fetch GET 200 https://registry.npmjs.org/@types/once/-/once-1.4.0.tgz 302ms (cache miss)
+382 timing reifyNode:node_modules/@types/once Completed in 383ms
+383 http fetch GET 200 https://registry.npmjs.org/@types/rimraf/-/rimraf-3.0.2.tgz 337ms (cache miss)
+384 timing reifyNode:node_modules/@types/rimraf Completed in 391ms
+385 http fetch GET 200 https://registry.npmjs.org/@types/natural-compare/-/natural-compare-1.4.1.tgz 278ms (cache miss)
+386 timing reifyNode:node_modules/@types/natural-compare Completed in 393ms
+387 http fetch GET 200 https://registry.npmjs.org/@types/object-inspect/-/object-inspect-1.8.1.tgz 305ms (cache miss)
+388 timing reifyNode:node_modules/@types/object-inspect Completed in 396ms
+389 http fetch GET 200 https://registry.npmjs.org/@types/object-keys/-/object-keys-1.0.1.tgz 292ms (cache miss)
+390 timing reifyNode:node_modules/@types/object-keys Completed in 398ms
+391 http fetch GET 200 https://registry.npmjs.org/@types/minimatch/-/minimatch-3.0.5.tgz 296ms (cache miss)
+392 timing reifyNode:node_modules/@types/minimatch Completed in 406ms
+393 http fetch GET 200 https://registry.npmjs.org/@types/node-emoji/-/node-emoji-1.8.1.tgz 321ms (cache miss)
+394 timing reifyNode:node_modules/@types/node-emoji Completed in 418ms
+395 http fetch GET 200 https://registry.npmjs.org/@types/is-string/-/is-string-1.0.0.tgz 274ms (cache miss)
+396 timing reifyNode:node_modules/@types/is-string Completed in 423ms
+397 http fetch GET 200 https://registry.npmjs.org/@types/jsonfile/-/jsonfile-6.0.1.tgz 294ms (cache miss)
+398 timing reifyNode:node_modules/@types/jsonfile Completed in 430ms
+399 http fetch GET 200 https://registry.npmjs.org/@types/language-tags/-/language-tags-1.0.0.tgz 281ms (cache miss)
+400 timing reifyNode:node_modules/@types/language-tags Completed in 432ms
+401 http fetch GET 200 https://registry.npmjs.org/@types/js-yaml/-/js-yaml-4.0.5.tgz 295ms (cache miss)
+402 timing reifyNode:node_modules/@types/js-yaml Completed in 435ms
+403 http fetch GET 200 https://registry.npmjs.org/@types/is-callable/-/is-callable-1.1.0.tgz 291ms (cache miss)
+404 timing reifyNode:node_modules/@types/is-callable Completed in 452ms
+405 http fetch GET 200 https://registry.npmjs.org/@types/is-regex/-/is-regex-1.0.0.tgz 306ms (cache miss)
+406 timing reifyNode:node_modules/@types/is-regex Completed in 459ms
+407 http fetch GET 200 https://registry.npmjs.org/@types/is-date-object/-/is-date-object-1.0.2.tgz 305ms (cache miss)
+408 timing reifyNode:node_modules/@types/is-date-object Completed in 462ms
+409 http fetch GET 200 https://registry.npmjs.org/@types/has-symbols/-/has-symbols-1.0.0.tgz 324ms (cache miss)
+410 timing reifyNode:node_modules/@types/has-symbols Completed in 500ms
+411 http fetch GET 200 https://registry.npmjs.org/@types/glob/-/glob-7.2.0.tgz 338ms (cache miss)
+412 timing reifyNode:node_modules/@types/glob Completed in 504ms
+413 http fetch GET 200 https://registry.npmjs.org/@types/imurmurhash/-/imurmurhash-0.1.1.tgz 342ms (cache miss)
+414 timing reifyNode:node_modules/@types/imurmurhash Completed in 506ms
+415 http fetch GET 200 https://registry.npmjs.org/@types/get-intrinsic/-/get-intrinsic-1.0.0.tgz 340ms (cache miss)
+416 timing reifyNode:node_modules/@types/get-intrinsic Completed in 509ms
+417 http fetch GET 200 https://registry.npmjs.org/@types/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz 357ms (cache miss)
+418 timing reifyNode:node_modules/@types/functional-red-black-tree Completed in 539ms
+419 http fetch GET 200 https://registry.npmjs.org/@types/flat-cache/-/flat-cache-2.0.0.tgz 355ms (cache miss)
+420 timing reifyNode:node_modules/@types/flat-cache Completed in 543ms
+421 http fetch GET 200 https://registry.npmjs.org/@types/file-entry-cache/-/file-entry-cache-5.0.2.tgz 360ms (cache miss)
+422 timing reifyNode:node_modules/@types/file-entry-cache Completed in 551ms
+423 http fetch GET 200 https://registry.npmjs.org/@types/fs-extra/-/fs-extra-9.0.13.tgz 369ms (cache miss)
+424 timing reifyNode:node_modules/@types/fs-extra Completed in 554ms
+425 http fetch GET 200 https://registry.npmjs.org/@types/estraverse/-/estraverse-5.1.1.tgz 369ms (cache miss)
+426 timing reifyNode:node_modules/@types/estraverse Completed in 566ms
+427 http fetch GET 200 https://registry.npmjs.org/@types/fast-levenshtein/-/fast-levenshtein-0.0.2.tgz 374ms (cache miss)
+428 timing reifyNode:node_modules/@types/fast-levenshtein Completed in 569ms
+429 http fetch GET 200 https://registry.npmjs.org/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz 402ms (cache miss)
+430 timing reifyNode:node_modules/@types/eslint-visitor-keys Completed in 608ms
+431 http fetch GET 200 https://registry.npmjs.org/@types/eslint-scope/-/eslint-scope-3.7.3.tgz 402ms (cache miss)
+432 timing reifyNode:node_modules/@types/eslint-scope Completed in 613ms
+433 http fetch GET 200 https://registry.npmjs.org/@types/string.prototype.matchall/-/string.prototype.matchall-4.0.1.tgz 577ms (cache miss)
+434 timing reifyNode:node_modules/@types/string.prototype.matchall Completed in 619ms
+435 http fetch GET 200 https://registry.npmjs.org/@types/esquery/-/esquery-1.0.2.tgz 424ms (cache miss)
+436 timing reifyNode:node_modules/@types/esquery Completed in 637ms
+437 http fetch GET 200 https://registry.npmjs.org/@types/doctrine/-/doctrine-0.0.5.tgz 456ms (cache miss)
+438 timing reifyNode:node_modules/@types/doctrine Completed in 676ms
+439 http fetch GET 200 https://registry.npmjs.org/@types/lodash/-/lodash-4.14.178.tgz 563ms (cache miss)
+440 timing reifyNode:node_modules/@types/lodash Completed in 696ms
+441 http fetch GET 200 https://registry.npmjs.org/@types/define-properties/-/define-properties-1.1.3.tgz 478ms (cache miss)
+442 timing reifyNode:node_modules/@types/define-properties Completed in 701ms
+443 http fetch GET 200 https://registry.npmjs.org/@types/debounce/-/debounce-1.2.1.tgz 510ms (cache miss)
+444 timing reifyNode:node_modules/@types/debounce Completed in 736ms
+445 http fetch GET 200 https://registry.npmjs.org/@types/lodash.merge/-/lodash.merge-4.6.6.tgz 626ms (cache miss)
+446 timing reifyNode:node_modules/@types/lodash.merge Completed in 749ms
+447 http fetch GET 200 https://registry.npmjs.org/@types/damerau-levenshtein/-/damerau-levenshtein-1.0.0.tgz 555ms (cache miss)
+448 timing reifyNode:node_modules/@types/damerau-levenshtein Completed in 787ms
+449 http fetch GET 200 https://registry.npmjs.org/@types/cross-spawn/-/cross-spawn-6.0.2.tgz 557ms (cache miss)
+450 timing reifyNode:node_modules/@types/cross-spawn Completed in 791ms
+451 http fetch GET 200 https://registry.npmjs.org/@types/color-string/-/color-string-1.5.2.tgz 586ms (cache miss)
+452 timing reifyNode:node_modules/@types/color-string Completed in 832ms
+453 http fetch GET 200 https://registry.npmjs.org/@types/confusing-browser-globals/-/confusing-browser-globals-1.0.0.tgz 597ms (cache miss)
+454 timing reifyNode:node_modules/@types/confusing-browser-globals Completed in 835ms
+455 http fetch GET 200 https://registry.npmjs.org/@types/call-bind/-/call-bind-1.0.0.tgz 610ms (cache miss)
+456 timing reifyNode:node_modules/@types/call-bind Completed in 860ms
+457 http fetch GET 200 https://registry.npmjs.org/@types/color/-/color-3.0.2.tgz 615ms (cache miss)
+458 timing reifyNode:node_modules/@types/color Completed in 863ms
+459 http fetch GET 200 https://registry.npmjs.org/@types/array.prototype.flatmap/-/array.prototype.flatmap-1.2.2.tgz 636ms (cache miss)
+460 timing reifyNode:node_modules/@types/array.prototype.flatmap Completed in 892ms
+461 http fetch GET 200 https://registry.npmjs.org/@types/bytes/-/bytes-3.1.1.tgz 642ms (cache miss)
+462 timing reifyNode:node_modules/@types/bytes Completed in 895ms
+463 http fetch GET 200 https://registry.npmjs.org/@types/array.prototype.flat/-/array.prototype.flat-1.2.1.tgz 658ms (cache miss)
+464 timing reifyNode:node_modules/@types/array.prototype.flat Completed in 921ms
+465 http fetch GET 200 https://registry.npmjs.org/@types/aria-query/-/aria-query-5.0.0.tgz 665ms (cache miss)
+466 timing reifyNode:node_modules/@types/aria-query Completed in 932ms
+467 http fetch GET 200 https://registry.npmjs.org/@types/argparse/-/argparse-2.0.10.tgz 679ms (cache miss)
+468 timing reifyNode:node_modules/@types/argparse Completed in 948ms
+469 http fetch GET 200 https://registry.npmjs.org/@types/react-is/-/react-is-17.0.3.tgz 1374ms (cache miss)
+470 timing reifyNode:node_modules/@types/react-is Completed in 1441ms
+471 http fetch GET 200 https://registry.npmjs.org/@types/text-table/-/text-table-0.2.2.tgz 1411ms (cache miss)
+472 timing reifyNode:node_modules/@types/text-table Completed in 1449ms
+473 http fetch GET 200 https://registry.npmjs.org/@types/path-is-absolute/-/path-is-absolute-1.0.0.tgz 1387ms (cache miss)
+474 timing reifyNode:node_modules/@types/path-is-absolute Completed in 1460ms
+475 http fetch GET 200 https://registry.npmjs.org/@types/prelude-ls/-/prelude-ls-1.1.29.tgz 1386ms (cache miss)
+476 timing reifyNode:node_modules/@types/prelude-ls Completed in 1464ms
+477 http fetch GET 200 https://registry.npmjs.org/@types/type-check/-/type-check-0.3.27.tgz 1438ms (cache miss)
+478 timing reifyNode:node_modules/@types/type-check Completed in 1472ms
+479 http fetch GET 200 https://registry.npmjs.org/@types/lodash.topath/-/lodash.topath-4.5.6.tgz 1365ms (cache miss)
+480 timing reifyNode:node_modules/@types/lodash.topath Completed in 1484ms
+481 http fetch GET 200 https://registry.npmjs.org/@types/object.fromentries/-/object.fromentries-2.0.1.tgz 1414ms (cache miss)
+482 timing reifyNode:node_modules/@types/object.fromentries Completed in 1501ms
+483 http fetch GET 200 https://registry.npmjs.org/@types/internal-slot/-/internal-slot-1.0.1.tgz 1424ms (cache miss)
+484 timing reifyNode:node_modules/@types/internal-slot Completed in 1583ms
+485 http fetch GET 200 https://registry.npmjs.org/@types/simple-swizzle/-/simple-swizzle-0.2.0.tgz 1540ms (cache miss)
+486 timing reifyNode:node_modules/@types/simple-swizzle Completed in 1602ms
+487 http fetch GET 200 https://registry.npmjs.org/@types/eslint-utils/-/eslint-utils-3.0.1.tgz 1501ms (cache miss)
+488 timing reifyNode:node_modules/@types/eslint-utils Completed in 1703ms
+489 http fetch GET 200 https://registry.npmjs.org/@types/esutils/-/esutils-2.0.0.tgz 1534ms (cache miss)
+490 timing reifyNode:node_modules/@types/esutils Completed in 1726ms
+491 http fetch GET 200 https://registry.npmjs.org/@types/es-to-primitive/-/es-to-primitive-1.2.4.tgz 1564ms (cache miss)
+492 timing reifyNode:node_modules/@types/es-to-primitive Completed in 1780ms
+493 http fetch GET 200 https://registry.npmjs.org/@types/es-abstract/-/es-abstract-1.17.3.tgz 1669ms (cache miss)
+494 timing reifyNode:node_modules/@types/es-abstract Completed in 1887ms
+495 timing reify:unpack Completed in 1890ms
+496 timing reify:unretire Completed in 0ms
+497 timing build:queue Completed in 1ms
+498 timing build:deps Completed in 1ms
+499 timing build Completed in 1ms
+500 timing reify:build Completed in 1ms
+501 timing reify:trash Completed in 0ms
+502 timing reify:save Completed in 28ms
+503 timing reify Completed in 4713ms
+504 silly ADD node_modules/@types/which
+505 silly ADD node_modules/@types/type-check
+506 silly ADD node_modules/@types/tmp
+507 silly ADD node_modules/@types/text-table
+508 silly ADD node_modules/@types/string.prototype.matchall
+509 silly ADD node_modules/@types/simple-swizzle
+510 silly ADD node_modules/@types/shebang-command
+511 silly ADD node_modules/@types/rimraf
+512 silly ADD node_modules/@types/regenerator-runtime
+513 silly ADD node_modules/@types/react-is
+514 silly ADD node_modules/@types/progress
+515 silly ADD node_modules/@types/pretty-hrtime
+516 silly ADD node_modules/@types/prelude-ls
+517 silly ADD node_modules/@types/path-is-absolute
+518 silly ADD node_modules/@types/once
+519 silly ADD node_modules/@types/object.fromentries
+520 silly ADD node_modules/@types/object-keys
+521 silly ADD node_modules/@types/object-inspect
+522 silly ADD node_modules/@types/node-emoji
+523 silly ADD node_modules/@types/natural-compare
+524 silly ADD node_modules/@types/minimatch
+525 silly ADD node_modules/@types/lodash.topath
+526 silly ADD node_modules/@types/lodash.merge
+527 silly ADD node_modules/@types/lodash
+528 silly ADD node_modules/@types/language-tags
+529 silly ADD node_modules/@types/jsonfile
+530 silly ADD node_modules/@types/js-yaml
+531 silly ADD node_modules/@types/is-string
+532 silly ADD node_modules/@types/is-regex
+533 silly ADD node_modules/@types/is-date-object
+534 silly ADD node_modules/@types/is-callable
+535 silly ADD node_modules/@types/internal-slot
+536 silly ADD node_modules/@types/imurmurhash
+537 silly ADD node_modules/@types/has-symbols
+538 silly ADD node_modules/@types/glob
+539 silly ADD node_modules/@types/get-intrinsic
+540 silly ADD node_modules/@types/functional-red-black-tree
+541 silly ADD node_modules/@types/fs-extra
+542 silly ADD node_modules/@types/flat-cache
+543 silly ADD node_modules/@types/file-entry-cache
+544 silly ADD node_modules/@types/fast-levenshtein
+545 silly ADD node_modules/@types/esutils
+546 silly ADD node_modules/@types/estraverse
+547 silly ADD node_modules/@types/esquery
+548 silly ADD node_modules/@types/eslint-visitor-keys
+549 silly ADD node_modules/@types/eslint-utils
+550 silly ADD node_modules/@types/eslint-scope
+551 silly ADD node_modules/@types/es-to-primitive
+552 silly ADD node_modules/@types/es-abstract
+553 silly ADD node_modules/@types/doctrine
+554 silly ADD node_modules/@types/define-properties
+555 silly ADD node_modules/@types/debounce
+556 silly ADD node_modules/@types/damerau-levenshtein
+557 silly ADD node_modules/@types/cross-spawn
+558 silly ADD node_modules/@types/confusing-browser-globals
+559 silly ADD node_modules/@types/color-string
+560 silly ADD node_modules/@types/color
+561 silly ADD node_modules/@types/call-bind
+562 silly ADD node_modules/@types/bytes
+563 silly ADD node_modules/@types/array.prototype.flatmap
+564 silly ADD node_modules/@types/array.prototype.flat
+565 silly ADD node_modules/@types/aria-query
+566 silly ADD node_modules/@types/argparse
+567 timing command:install Completed in 4719ms
+568 verbose exit 0
+569 timing npm Completed in 4940ms
+570 info ok
