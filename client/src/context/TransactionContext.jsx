@@ -123,13 +123,13 @@ export const TransactionsProvider = ({ children }) => {
         console.log(`Loading - ${transactionHash.hash}`);
         await transactionHash.wait();
         console.log(`Success - ${transactionHash.hash}`);
-        
+        setIsLoading(false);
 
         const transactionsCount = await transactionsContract.getTransactionCount();
 
-          setTransactionCount(transactionsCount.toNumber());
-          window.reload();
-         // setIsLoading(false);
+        setTransactionCount(transactionsCount.toNumber());
+        window.reload();
+          
       } else {
         console.log("No ethereum object");
       }
